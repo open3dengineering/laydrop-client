@@ -1,4 +1,4 @@
-Laydrop client app
+Laydrop wifibox client app
 ===================
 
 
