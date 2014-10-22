@@ -1,0 +1,27 @@
+//  RIGHT PANEL
+#rightpanel {
+  position: absolute;
+  width: @right-panel-width;
+  overflow:hidden; /* hide thermometer and process indicator */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  //padding-top: 2%; /* reserve space for status message */
+}
+
+
+/*
+  PROGRESSGUAGE AND THERMOMETER SHARED STYLES
+*/
+.progressbarAppear {
+/*margin-right: 1.5% !important;*/
+  right: -.5% !important;
+}
+.thermometerAppear {
+/*margin-right: 1.5% !important;*/
+  right: -6.5% !important;
+}
+
+@import "thermometer.less";
+@import "progressbar.less";
+

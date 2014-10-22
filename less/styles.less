@@ -1,0 +1,30 @@
+// IMPORTS
+//@import "jquery-tourbus.less";
+@import "help_joyride-2.1.less";
+@import "help.less";
+@import "base.less";
+@import "settingsPopup.less";
+@import "message.less";
+@import "404.less"; 
+
+
+// MOBILE
+@media  only screen and (max-width: 480px),
+        only screen and (max-width: 720px) and (min-device-pixel-ratio : 1.5),
+        only screen and (max-width: 720px) and (-webkit-min-device-pixel-ratio : 1.5) {
+  @import "mobile.less";
+}
+
+// TABLET
+@media	only screen and (max-height: 300px),
+				only screen and (max-width: 450px) and (min-device-pixel-ratio : 1.5),
+				only screen and (max-width: 450px) and (-webkit-min-device-pixel-ratio : 1.5) {
+  #popupSettings {
+ 	  margin: 2% 2%;
+	}
+}
+
+// PORTRAIT
+@media  only screen and (orientation:portrait) {
+  @import "portrait.less";
+}
